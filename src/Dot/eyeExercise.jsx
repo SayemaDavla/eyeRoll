@@ -10,7 +10,7 @@ function EyeExercise() {
 
   // Function to calculate animation duration based on speed
   const getAnimationDuration = () => {
-    return speed === 1 ? 10 : 10 / speed;
+    return speed === 0 ? 0 : speed === 1 ? 10 : 10 / speed;
   }
 
   // Handle speed change
@@ -31,18 +31,17 @@ function EyeExercise() {
   return (
     <div className="App">
       <h1>Eye Exercise</h1>
-      <SessionCount />
       <div className="controls">
         <label>
-          Speed:
+          Speed
           <input type="number" value={speed} onChange={handleSpeedChange} />
         </label>
         <label>
-          Size:
+          Size
           <input type="number" value={size} onChange={handleSizeChange} />
         </label>
         <label>
-          Direction:
+          Direction
           <select value={direction} onChange={handleDirectionChange}>
             <option value="clockwise">Clockwise</option>
             <option value="anticlockwise">Anticlockwise</option>
@@ -63,6 +62,7 @@ function EyeExercise() {
           }}
         ></div>
     </div>
+    <SessionCount />
     </div>);
 }
 export default EyeExercise;

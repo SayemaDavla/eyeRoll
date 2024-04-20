@@ -19,7 +19,7 @@ function CdcStatistics() {
   };
 
   return (
-    <div className="container">
+    <div className="App">
       <h1>Eye Health Data</h1>
       {cdcData && (
         <div className="card-container">

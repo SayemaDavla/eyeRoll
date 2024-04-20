@@ -22,11 +22,12 @@ function SessionCount() {
     };
     return (
         <div className="session">
-            <p>You have completed {count} sessions.</p>
+
             <div className="session-count">
                 <button variant="Complete Session" onClick={() => incrementCount()}>Complete Session</button>
                 <button variant="Reset" onClick={() => resetCount()}>Reset</button>
             </div>
+            <p>You have completed {count} sessions.</p>
 
         </div>
     );

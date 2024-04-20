@@ -1,8 +1,6 @@
 #root {
-  /* max-width: 2000px;
-  max-height: 2000px; */
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0 2rem;
   text-align: center;
   background-color: #333;
   color: white;
@@ -94,6 +92,33 @@ body{
   100% {
     transform: rotate(360deg) translateX(200px) rotate(-360deg);
 }
+}
+/* Controls- Buttons*/
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+
+.controls input[type="number"] {
+  margin-top: 0.5rem;
+}
+
+/* Session Count*/
+.session{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /* padding: 1rem; */
+}
+.session-count {
+  display: flex;
+  justify-content: center;
+  gap: .5rem;
+  margin-top: 1rem;
 }
 
 .circle-container {
