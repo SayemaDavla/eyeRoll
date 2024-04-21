@@ -1,7 +1,9 @@
 import {react, useState, useEffect} from 'react';
 import './../App.css';
 import Button from 'react-bootstrap/Button';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+
+// This component tracks the number of completed sessions using localStorage
+// It provides buttons to increment the session count and reset it
 
 function SessionCount() {
     const [count, setCount] = useState(0);

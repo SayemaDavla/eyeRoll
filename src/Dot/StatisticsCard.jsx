@@ -1,4 +1,9 @@
 import React from 'react';
+// This is a card component displaying statistics data.
+// Each card contains information about a specific statistic.
+// The 'data_obj' parameter contains the data for the statistic.
+
+    
 
 function StatisticsCard({ title, data_obj }) {
   return (

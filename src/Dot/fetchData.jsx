@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import StatisticsCard from './StatisticsCard.jsx';
 
+// This component fetches and displays eye health data from the CDC
+// It displays the first four statistics in the dataset
+
+
 function CdcStatistics() {
   const [cdcData, setCdcData] = useState([]);
 
