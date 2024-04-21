@@ -1,9 +1,13 @@
 #root {
-  margin: 0 auto;
-  padding: 0 2rem;
+  /* margin: 0 auto;
+  padding: 0 2rem; */
   text-align: center;
   background-color: #333;
   color: white;
+}
+
+.riskFactors{
+  min-height: 1500px;
 }
 
 .logo {

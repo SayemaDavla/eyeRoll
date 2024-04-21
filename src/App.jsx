@@ -12,7 +12,7 @@ function App() {
         <nav className="navbar">
           <ul>
             <li>
-              <Link to="/eye-roll">Eye Exercise</Link>
+              <Link to="/eyeRoll">Eye Exercise</Link>
             </li>
             <li>
               <Link to="/risk-factors">Eye Health</Link>
@@ -20,7 +20,7 @@ function App() {
           </ul>
         </nav>
         <Routes>
-          <Route path="/eye-roll" exact element={<EyeExercise/>} />
+          <Route path="/eyeRoll" exact element={<EyeExercise/>} />
           <Route path="/risk-factors" exact element={<CdcStatistics/>} />
         </Routes>
       </div>

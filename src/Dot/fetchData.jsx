@@ -19,7 +19,7 @@ function CdcStatistics() {
   };
 
   return (
-    <div className="App">
+    <div className="riskFactors">
       <h1>Eye Health Data</h1>
       {cdcData && (
         <div className="card-container">
