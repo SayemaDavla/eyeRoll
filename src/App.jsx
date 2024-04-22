@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // This component provides navigation between the Eye Exercise and Eye Health pages
 // It uses react-router-dom to manage the routes
 // The Eye Exercise page displays an interactive eye exercise animation
+// The Eye Health page displays statistics on eye health from the CDC
 
 function App() {
   return (
