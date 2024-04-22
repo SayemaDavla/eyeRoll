@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import CdcStatistics from './Dot/fetchData.jsx';
 import EyeExercise from './Dot/eyeExercise.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // This component provides navigation between the Eye Exercise and Eye Health pages
 // It uses react-router-dom to manage the routes
 // The Eye Exercise page displays an interactive eye exercise animation
-// The Eye Health page displays statistics on eye health from the CDC
+
 
 function App() {
   return (

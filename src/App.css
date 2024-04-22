@@ -1,6 +1,4 @@
 #root {
-  /* margin: 0 auto;
-  padding: 0 2rem; */
   text-align: center;
   background-color: #333;
   color: white;
@@ -180,6 +178,4 @@ body{
 .read-the-docs {
   color: #888;
 }
-/* .session-count{
-  gap: 1rem;
-} */
+
