@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import CdcStatistics from './Dot/fetchData.jsx';
 import EyeExercise from './Dot/eyeExercise.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
