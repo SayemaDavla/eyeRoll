@@ -2,10 +2,11 @@ import { useState } from 'react';
 import './../App.css';
 import SessionCount from './sessionCount.jsx';
 
-// This component displays an interactive eye exercise animation
-// It allows the user to control the speed, size, direction, and movement of the animation
+// This EyeExercise React component displays an interactive eye exercise animation
+//Used useState to manage various states including animation speed, size, direction, and whether the animation is running.
 // The animation can move in a clockwise or anticlockwise circle, or horizontally or vertically
-// The user can adjust the speed and size of the animation
+// The user can adjust the speed and size of the animation and pause or resume the exercise.
+// The number of completed sessions is tracked using the SessionCount component
 
 function EyeExercise() {
     const [speed, setSpeed] = useState(5);
