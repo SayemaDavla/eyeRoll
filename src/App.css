@@ -103,7 +103,14 @@ body{
   gap: 1rem;
   margin-top: 3rem;
 }
-
+.start-pause-button {
+  position: absolute; /* Position the button absolutely within its relatively positioned parent */
+  bottom: 100px;       /* Distance from the bottom of the parent container */
+  left: 0px;         /* Distance from the left of the parent container */
+  padding: 10px 20px; /* Optional: Padding for better button sizing */
+  font-size: 16px;    /* Optional: Font size for better visibility */
+     /* Change cursor to pointer to indicate it's clickable */
+}
 
 .controls input[type="number"] {
   margin-top: 0.5rem;
